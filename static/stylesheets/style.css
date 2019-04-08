@@ -1,0 +1,43 @@
+form{
+    border: 2px solid black;
+    min-height: 200px;
+    width: 500px;
+    margin: 50px 75px;
+    padding: 25px 50px;
+}
+.row{
+    margin-bottom: 25px;
+}
+label{
+    height: 25px;
+    width: 200px;
+}
+input[type="text"], select{
+    width: 200px;
+}
+input[type="submit"]{
+    margin-left: 335px;
+}
+textarea{
+    height: 80px;
+    width: 400px;
+    resize: none;
+}
+.main{
+    border: 2px solid black;
+    min-height: 200px;
+    width: 500px;
+    margin: 50px 75px;
+    padding: 25px 50px;
+}
+span{
+    height: 25px;
+    width: 200px;
+}
+h4{
+    text-decoration: underline;
+}
+a, a:hover{
+    color: black;
+    text-decoration: none;
+}

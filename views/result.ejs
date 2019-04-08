@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+    </head>
+    <body>
+        <div class="main">
+            <h4>Submitted Information</h4>
+            <div class="row">
+                <span>Your Name:</span> <span class="info"><%= survey_info.name %></span>
+            </div>
+            <br/>
+            <div class="row">
+                <span>Dojo Location:</span> <span class="info"><%= survey_info.location %></span>
+            </div>
+            <br/>
+            <div class="row">
+                <span>Favorite Language:</span> <span class="info"><%= survey_info.language %></span>
+            </div>
+            <br/>
+            <div class="row">
+                <span>Comment:</span> <span class="info"><%= survey_info.comment %></span>
+            </div>
+            <br/>
+            <div class="row">
+                <button><a href="/">Go Back</a></button>
+            </div>
+        </div>
+    </body>
+</html>
